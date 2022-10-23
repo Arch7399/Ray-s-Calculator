@@ -1,0 +1,38 @@
+* {
+    border: 1px solid black;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+}
+
+.display {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 100%;
+    width: 100%;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.keypad {
+    margin-top: 100px;
+    height: 220px;
+    display: grid;
+    gap: 10px;
+    padding: 3px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    
+}
